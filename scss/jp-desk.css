@@ -1,0 +1,722 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#landingB .title h2 {
+  font-size: 1.75em !important;
+  color: #1f2b62 !important;
+}
+#landingB img {
+  width: 100%;
+  height: auto;
+}
+#landingB p {
+  color: #000;
+  line-height: 1.75;
+}
+#landingB .btn .cta {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 4rem;
+  background: #fff;
+  color: #1f2b62;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+  margin-bottom: 0;
+}
+#landingB .btn .cta:hover, #landingB .btn .cta:focus {
+  background: #139eff;
+  color: #fff;
+  opacity: 1;
+}
+#landingB .btn .cta i {
+  margin-left: 10px;
+  font-size: 24px;
+}
+#landingB .banner {
+  width: 100%;
+  height: calc(100vh - 90px);
+  margin-top: 90px;
+  /* same as #navbar height */
+  display: flex;
+  position: relative;
+  background-image: url("../images/jpn-desk/rcnth-jp.jpg");
+  background-size: cover;
+  background-position: top left;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+#landingB .banner::before {
+  display: block;
+  position: absolute;
+  content: " ";
+  background: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#landingB .banner .caption {
+  width: 60%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  color: #fff;
+}
+#landingB .banner .caption > * {
+  margin-bottom: 1rem;
+}
+#landingB .banner .caption .heading-1 {
+  font-size: 1.85em;
+  font-weight: 700;
+}
+#landingB .banner .caption .heading-2 {
+  font-size: 1.35em;
+  font-weight: 500;
+}
+#landingB .banner .banner-form {
+  width: 40%;
+}
+#landingB .banner .banner-form form {
+  background: #fff;
+  width: 100%;
+  border: 0;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  padding: 1.5rem 1.5rem;
+}
+#landingB .banner .banner-form form .form-title {
+  display: block;
+  font-size: 1.75em;
+  color: #1f2b62;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#landingB .banner .banner-form form .multi-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+#landingB .banner .banner-form form .multi-checkbox label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  min-width: 30%;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-right: 10px;
+}
+#landingB .banner .banner-form form .multi-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+#landingB .banner .banner-form form .multi-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #1f2b62;
+}
+#landingB .banner .banner-form form .multi-checkbox label input:checked ~ .checkmark {
+  background: #139eff;
+  border: 1px solid #139eff;
+}
+#landingB .banner .banner-form form .multi-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+#landingB .banner .banner-form form .multi-checkbox label input:checked ~ .checkmark:after {
+  display: block;
+}
+#landingB .banner .banner-form form .multi-checkbox label .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#landingB .banner .banner-form form .multi-checkbox .label-text {
+  position: relative;
+  font-size: 16px;
+  color: #1f2b62;
+  font-weight: 500;
+}
+#landingB .banner .banner-form form .btn .cta {
+  padding: 1rem 4rem !important;
+  background: #1f2b62;
+  color: #fff;
+}
+#landingB .banner .banner-form form .btn .cta:hover, #landingB .banner .banner-form form .btn .cta:focus {
+  background: #139eff;
+  color: #fff;
+  opacity: 1;
+}
+#landingB .intro .intro-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#landingB .intro .intro-content .left {
+  width: 50%;
+  padding: 1rem;
+  padding-right: 3rem;
+}
+#landingB .intro .intro-content .left img {
+  width: 100%;
+}
+#landingB .intro .intro-content .right {
+  width: 50%;
+}
+#landingB .youtube .inner {
+  padding-top: 0;
+}
+#landingB .youtube .youtube-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#landingB .youtube .youtube-content .left {
+  width: 50%;
+  padding-right: 2rem;
+}
+#landingB .youtube .youtube-content .left p {
+  padding-bottom: 1rem;
+}
+#landingB .youtube .youtube-content .left .btn {
+  justify-content: start;
+}
+#landingB .youtube .youtube-content .left .btn .cta {
+  padding: 1rem 4rem;
+  background: #1f2b62;
+  color: #fff;
+}
+#landingB .youtube .youtube-content .left .btn .cta:hover, #landingB .youtube .youtube-content .left .btn .cta:focus {
+  background: #139eff;
+  color: #fff;
+  opacity: 1;
+}
+#landingB .youtube .youtube-content .right {
+  width: 50%;
+}
+#landingB .youtube .youtube-content .right .youtube-container {
+  width: 100%;
+}
+#landingB .youtube .youtube-content .right .youtube-container .youtube-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+#landingB .youtube .youtube-content .right .youtube-container .youtube-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#landingB .why-us {
+  background: #f7f7f7;
+}
+#landingB .why-us .why-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#landingB .why-us .why-content .item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+#landingB .why-us .why-content .item > * {
+  margin-bottom: 1rem;
+}
+#landingB .why-us .why-content .item img {
+  width: 150px;
+}
+#landingB .why-us .why-content .item .heading {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1f2b62;
+}
+#landingB .why-us .why-content .item .info {
+  width: 100%;
+}
+#landingB .why-us .why-content .item .info p {
+  font-size: 14px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+#landingB .recruiter .title {
+  margin-bottom: 1rem !important;
+}
+#landingB .recruiter .title .tagline {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+#landingB .recruiter .recruiter-note {
+  text-align: center;
+  color: #000;
+}
+#landingB .recruiter .recruiter-note h3 {
+  font-size: 1em;
+  margin: 0;
+  margin-top: 1rem;
+}
+#landingB .recruiter .recruiter-note ul {
+  display: inline-block;
+  list-style: disc inside;
+  font-size: 0.85em;
+  text-align: left;
+}
+#landingB .recruiter .owl-stage-outer {
+  margin-bottom: 2rem;
+}
+#landingB .recruiter .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid #1f2b62;
+  width: 10px !important;
+  height: 10px !important;
+}
+#landingB .recruiter .owl-dots .owl-dot.active span {
+  background: #1f2b62;
+}
+#landingB .recruiter .info {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 2rem 0;
+}
+#landingB .recruiter .info .left {
+  width: 30%;
+  height: 300px;
+}
+#landingB .recruiter .info .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+#landingB .recruiter .info .right {
+  width: 70%;
+  padding: 2rem;
+  background: #f7f7f7;
+}
+#landingB .recruiter .info .right .name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#landingB .step {
+  background: #1f2b62;
+}
+#landingB .step .title h2 {
+  color: #fff !important;
+}
+#landingB .step .step-list {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+}
+#landingB .step .step-list .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#landingB .step .step-list .item .img {
+  padding-right: 3rem;
+}
+#landingB .step .step-list .item .img img {
+  width: 65px;
+}
+#landingB .step .step-list .item p {
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+}
+#landingB .step .step-list .angle {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+#landingB .step .step-list .angle img {
+  width: 30px;
+}
+#landingB .form .tagline {
+  font-size: 1.2em;
+}
+#landingB .form .icon {
+  text-align: center;
+}
+#landingB .form .icon img {
+  width: 50px;
+}
+#landingB .form .vn-form {
+  padding: 2rem 0;
+}
+#landingB .form .vn-form .ui.form {
+  width: 600px;
+  margin: auto;
+  border: 1px solid #1f2b62;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  padding: 2rem 2rem;
+}
+#landingB .form .vn-form .ui.form .field label {
+  margin-bottom: 0.5rem;
+}
+#landingB .form .vn-form .ui.form .field input:not([type]),
+#landingB .form .vn-form .ui.form .field input[type=email],
+#landingB .form .vn-form .ui.form .field input[type=tel],
+#landingB .form .vn-form .ui.form .field input[type=text],
+#landingB .form .vn-form .ui.form .field textarea {
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border: 1px solid #1f2b62 !important;
+}
+#landingB .form .vn-form .ui.form .btn .cta {
+  background: #1f2b62;
+  color: #fff;
+}
+#landingB .form .vn-form .ui.form .btn .cta:hover, #landingB .form .vn-form .ui.form .btn .cta:focus {
+  background: #139eff;
+  color: #fff;
+  opacity: 1;
+}
+#landingB .faq {
+  background: #f7f7f7;
+}
+#landingB .faq .faq-container .item {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  text-align: left;
+  border-bottom: 1px solid #adadad;
+}
+#landingB .faq .faq-container .item > * {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+#landingB .faq .faq-container .item .question {
+  color: #1f2b62;
+  font-size: 1em;
+  font-weight: 700;
+}
+#landingB .faq .faq-container .item .answer {
+  color: #000;
+  font-size: 1em;
+}
+#landingB .faq .faq-container .item:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+#landingB .completed {
+  height: 40vw;
+  background: #FAFAFA;
+  text-align: center;
+  padding-top: 90px;
+}
+#landingB .completed .checkmark img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+#landingB .completed .text p {
+  font-size: 1em;
+  color: #1f2b62;
+}
+
+@media only screen and (max-width: 768px) {
+  #newNav #navbar .nav-cta .reg-btn-blue {
+    font-size: 10px;
+  }
+
+  #content .wrapper .inner {
+    padding: 4rem 20px;
+  }
+
+  #landingB .title h2 {
+    font-size: 1.5em !important;
+  }
+  #landingB .banner {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background-position: top center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 20px;
+  }
+  #landingB .banner .caption {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+  #landingB .banner .caption .heading-1 {
+    font-size: 2em;
+  }
+  #landingB .banner .caption .heading-2 {
+    font-size: 1.5em;
+  }
+  #landingB .banner .banner-form {
+    order: 2;
+    width: 100%;
+  }
+  #landingB .banner .banner-form form {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  #landingB .banner .banner-form form .form-title {
+    font-size: 1.5em;
+  }
+  #landingB .banner .banner-form form .multi-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  #landingB .banner .banner-form form .multi-checkbox label {
+    min-width: 40%;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+  }
+  #landingB .banner .banner-form form .label-text {
+    font-size: 16px;
+  }
+  #landingB .intro .inner {
+    padding: 2rem 20px;
+  }
+  #landingB .intro .intro-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  #landingB .intro .intro-content .left {
+    width: 100%;
+    padding: 1.5rem 0;
+    padding-right: 0;
+  }
+  #landingB .intro .intro-content .left img {
+    width: 100%;
+  }
+  #landingB .intro .intro-content .right {
+    width: 100%;
+    text-align: center;
+  }
+  #landingB .youtube .inner {
+    padding: 1rem 20px;
+    padding-top: 0;
+  }
+  #landingB .youtube .youtube-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #landingB .youtube .youtube-content .left {
+    width: 100%;
+    padding-right: 0;
+    padding: 1rem 20px;
+    text-align: center;
+    order: 2;
+  }
+  #landingB .youtube .youtube-content .left .btn {
+    justify-content: center;
+  }
+  #landingB .youtube .youtube-content .left .btn .cta {
+    padding: 1rem 2rem;
+    background: #1f2b62;
+    color: #fff;
+  }
+  #landingB .youtube .youtube-content .left .btn .cta:hover, #landingB .youtube .youtube-content .left .btn .cta:focus {
+    background: #139eff;
+    color: #fff;
+    opacity: 1;
+  }
+  #landingB .youtube .youtube-content .right {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #landingB .youtube .youtube-content .right .youtube-container {
+    width: 100%;
+  }
+  #landingB .why-us .why-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #landingB .why-us .why-content .item {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  #landingB .why-us .why-content .item > * {
+    margin-bottom: 1rem;
+  }
+  #landingB .why-us .why-content .item img {
+    width: 120px;
+  }
+  #landingB .why-us .why-content .item .heading {
+    font-size: 20px;
+  }
+  #landingB .why-us .why-content .item .info {
+    width: 100%;
+  }
+  #landingB .why-us .why-content .item .info p {
+    font-size: 14px;
+    text-align: center;
+  }
+  #landingB .recruiter .owl-stage-outer {
+    margin-bottom: 2rem;
+  }
+  #landingB .recruiter .owl-dots .owl-dot span {
+    background: transparent;
+    border: 1px solid #1f2b62;
+    width: 10px !important;
+    height: 10px !important;
+  }
+  #landingB .recruiter .owl-dots .owl-dot.active span {
+    background: #1f2b62;
+  }
+  #landingB .recruiter .info {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 2rem 0;
+  }
+  #landingB .recruiter .info .left {
+    width: 100%;
+    height: 300px;
+  }
+  #landingB .recruiter .info .right {
+    width: 100%;
+    text-align: center;
+  }
+  #landingB .recruiter .info .right .name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  #landingB .step .step-list {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  #landingB .step .step-list .item {
+    padding: 1rem 1rem;
+  }
+  #landingB .step .step-list .item .img {
+    padding-right: 20px;
+  }
+  #landingB .step .step-list .item .img img {
+    width: 50px;
+  }
+  #landingB .step .step-list .angle {
+    padding: 1rem 0;
+  }
+  #landingB .step .step-list .angle img {
+    width: 30px;
+  }
+  #landingB .form .tagline {
+    font-size: 1.2em;
+  }
+  #landingB .form .vn-form {
+    padding: 2rem 0;
+  }
+  #landingB .form .vn-form .ui.form {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  #landingB .form .vn-form .ui.form .field input:not([type]),
+#landingB .form .vn-form .ui.form .field input[type=email],
+#landingB .form .vn-form .ui.form .field input[type=tel],
+#landingB .form .vn-form .ui.form .field input[type=text],
+#landingB .form .vn-form .ui.form .field textarea {
+    padding: 1rem 1rem;
+  }
+  #landingB .form .vn-form .ui.form .btn .cta {
+    padding: 1rem 2rem;
+  }
+  #landingB .faq .faq-container .item {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    text-align: left;
+    border-bottom: 1px solid #adadad;
+  }
+  #landingB .faq .faq-container .item > * {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  #landingB .faq .faq-container .item .question {
+    color: #1f2b62;
+    font-size: 1em;
+  }
+  #landingB .faq .faq-container .item .answer {
+    color: #000;
+    font-size: 1em;
+  }
+  #landingB .faq .faq-container .item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+  #landingB .completed {
+    height: auto;
+  }
+}
