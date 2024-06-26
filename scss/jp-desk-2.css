@@ -65,74 +65,24 @@ html {
   top: 0;
   left: 0;
 }
-#landingB .banner .caption-2 {
-  width: 100%;
+#landingB .banner .caption {
+  width: 60%;
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-left: 3rem;
   color: #fff;
-  letter-spacing: 1px;
 }
-#landingB .banner .caption-2 > * {
+#landingB .banner .caption > * {
   margin-bottom: 1rem;
 }
-#landingB .banner .caption-2 .heading-1 {
-  font-size: 2em;
+#landingB .banner .caption .heading-1 {
+  font-size: 1.85em;
   font-weight: 700;
 }
-#landingB .banner .caption-2 .heading-2 {
+#landingB .banner .caption .heading-2 {
   font-size: 1.35em;
   font-weight: 500;
-}
-#landingB .banner .caption-2 .button {
-  padding-top: 2rem;
-}
-#landingB .banner .caption-2 .button .hero-cta {
-  display: flex;
-  align-items: center;
-  padding: 1rem 2rem;
-  font-size: 1.2em;
-  font-weight: 500;
-  background: #fafafa;
-  color: #1f2b62;
-  border-radius: 100rem;
-  -webkit-border-radius: 100rem;
-  -moz-border-radius: 100rem;
-  -ms-border-radius: 100rem;
-  -o-border-radius: 100rem;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-}
-#landingB .banner .caption-2 .button .hero-cta:hover, #landingB .banner .caption-2 .button .hero-cta:focus {
-  background: #139eff;
-  color: #fff;
-  opacity: 1;
-}
-#landingB .banner .caption-2 .button .hero-cta .icon {
-  width: 35px;
-  margin-right: 10px;
-}
-#landingB .banner .caption-2 .button .hero-cta .icon svg {
-  margin: 0;
-  width: 100%;
-  height: auto;
-  fill: #146df2;
-}
-#landingB .banner .caption-2 .button .hero-cta svg path {
-  fill: #146df2;
-  transition: fill 0.4s;
-  -webkit-transition: fill 0.4s;
-  -moz-transition: fill 0.4s;
-  -ms-transition: fill 0.4s;
-  -o-transition: fill 0.4s;
-}
-#landingB .banner .caption-2 .button .hero-cta:hover svg path {
-  fill: #fafafa;
 }
 #landingB .banner .banner-form {
   width: 40%;
@@ -519,7 +469,7 @@ html {
 }
 #landingB .completed {
   height: 40vw;
-  background: #fafafa;
+  background: #FAFAFA;
   text-align: center;
   padding-top: 90px;
 }

@@ -69,94 +69,23 @@ html {
       top: 0;
       left: 0;
     }
-    // .caption {
-    //   width: 60%;
-    //   position: relative;
-    //   display: flex;
-    //   flex-direction: column;
-    //   padding-left: 3rem;
-    //   color: #fff;
-    //   & > * {
-    //     margin-bottom: 1rem;
-    //   }
-    //   .heading-1 {
-    //     font-size: 1.85em;
-    //     font-weight: 700;
-    //   }
-    //   .heading-2 {
-    //     font-size: 1.35em;
-    //     font-weight: 500;
-    //   }
-    // }
-    //Change Header Style 2024
-    .caption-2 {
-      width: 100%;
+    .caption {
+      width: 60%;
       position: relative;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      padding-left: 3rem;
       color: #fff;
-      letter-spacing: 1px;
       & > * {
         margin-bottom: 1rem;
       }
       .heading-1 {
-        font-size: 2em;
+        font-size: 1.85em;
         font-weight: 700;
       }
       .heading-2 {
         font-size: 1.35em;
         font-weight: 500;
-      }
-      .button {
-        padding-top: 2rem;
-        .hero-cta {
-          display: flex;
-          align-items: center;
-          padding: 1rem 2rem;
-          font-size: 1.2em;
-          font-weight: 500;
-          background: #fafafa;
-          color: #1f2b62;
-          border-radius: 100rem;
-          -webkit-border-radius: 100rem;
-          -moz-border-radius: 100rem;
-          -ms-border-radius: 100rem;
-          -o-border-radius: 100rem;
-          transition: all 0.5s ease-in-out;
-          -webkit-transition: all 0.5s ease-in-out;
-          -moz-transition: all 0.5s ease-in-out;
-          -ms-transition: all 0.5s ease-in-out;
-          -o-transition: all 0.5s ease-in-out;
-          &:hover,
-          &:focus {
-            background: #139eff;
-            color: #fff;
-            opacity: 1;
-          }
-          .icon {
-            width: 35px;
-            margin-right: 10px;
-            svg {
-              margin: 0;
-              width: 100%;
-              height: auto;
-              fill: #146df2;
-            }
-          }
-        }
-        .hero-cta svg path {
-          fill: #146df2;
-          transition: fill .4s;
-          -webkit-transition: fill .4s;
-          -moz-transition: fill .4s;
-          -ms-transition: fill .4s;
-          -o-transition: fill .4s;
-}
-        .hero-cta:hover svg path {
-          fill: #fafafa;
-        }
       }
     }
     .banner-form {
@@ -375,7 +304,9 @@ html {
             margin-bottom: 10px;
             line-height: 1.5;
           }
+
         }
+
       }
     }
   }
@@ -584,7 +515,7 @@ html {
   }
   .completed {
     height: 40vw;
-    background: #fafafa;
+    background: #FAFAFA;
     text-align: center;
     padding-top: 90px;
     .checkmark {
@@ -600,7 +531,9 @@ html {
         color: #1f2b62;
       }
     }
+
   }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -751,6 +684,7 @@ html {
             p {
               font-size: 14px;
               text-align: center;
+
             }
           }
         }
