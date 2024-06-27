@@ -622,21 +622,47 @@ html {
     }
     .banner {
       width: 100%;
-      height: auto;
+      // height: auto;
+      // height: calc(100vh - 90px);
       flex-direction: column;
+      background-image: url("../images/jpn-desk/rcnth-jp-sp.jpg");
+      background-size: cover;
       background-position: top center;
       align-items: center;
       justify-content: center;
       padding: 2rem 20px;
-      .caption {
-        width: 100%;
-        padding-left: 0;
+      // .caption {
+      //   width: 100%;
+      //   padding-left: 0;
+      //   text-align: center;
+      //   .heading-1 {
+      //     font-size: 2em;
+      //   }
+      //   .heading-2 {
+      //     font-size: 1.5em;
+      //   }
+      // }
+      .caption-2 {
         text-align: center;
+        & > * {
+          margin-bottom: 1.5rem;
+        }
         .heading-1 {
-          font-size: 2em;
+          font-size: 2.5em;
         }
         .heading-2 {
           font-size: 1.5em;
+        }
+        .button {
+          padding-top: 1.5rem;
+          .hero-cta {
+            padding: 1rem 2rem;
+            font-size: 1.2em;
+            .icon {
+              width: 35px;
+              margin-right: 10px;
+            }
+          }
         }
       }
       .banner-form {
